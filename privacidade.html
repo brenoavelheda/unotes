@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade — uNotes</title>
+<meta name="description" content="Política de privacidade do uNotes, aplicativo pessoal de anotações para Windows e Android.">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --accent: #0969da;
+  --border: #d1d9e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #9198a1;
+    --accent: #4493f8;
+    --border: #30363d;
+  }
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 3rem 1.25rem 4rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--fg);
+}
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; }
+h2 { font-size: 1.25rem; line-height: 1.3; margin: 2rem 0 0.5rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--accent); }
+ul { padding-left: 1.25rem; }
+li { margin: 0.4rem 0; }
+.updated { color: var(--muted); font-size: 0.95rem; }
+footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidade do uNotes</h1>
+<p class="updated">Última atualização: 2 de novembro de 2026.</p>
+
+<p>Esta política descreve como o uNotes, aplicativo de anotações pessoais para Windows e Android, trata os seus dados.</p>
+
+<h2>Dados que o desenvolvedor coleta</h2>
+<p>Nenhum. O uNotes não coleta dados pessoais, não usa ferramentas de análise ou rastreamento, não exibe anúncios e não opera servidores próprios.</p>
+
+<h2>Dados de usuário do Google acessados</h2>
+<p>O uNotes acessa apenas os arquivos que ele próprio cria no Google Drive do usuário, por meio do escopo <code>https://www.googleapis.com/auth/drive.file</code> (<code>drive.file</code>). O aplicativo não acessa outros arquivos do Drive.</p>
+
+<h2>Como esses dados são usados</h2>
+<p>Exclusivamente para armazenar e sincronizar as notas e os anexos criptografados do próprio usuário entre os seus próprios dispositivos.</p>
+
+<h2>Compartilhamento</h2>
+<p>Os dados nunca são compartilhados, vendidos ou transferidos a terceiros.</p>
+
+<h2>Armazenamento e segurança</h2>
+<p>O conteúdo é criptografado de ponta a ponta no dispositivo antes de ser enviado. As credenciais e os tokens de acesso permanecem nos dispositivos do usuário.</p>
+
+<h2>Exclusão dos seus dados</h2>
+<p>Para remover os dados do uNotes:</p>
+<ul>
+<li>revogue o acesso do aplicativo em <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>;</li>
+<li>exclua a pasta <strong>“uNotes Sync”</strong> no Google Drive;</li>
+<li>desinstale o aplicativo.</li>
+</ul>
+
+<h2>Uso Limitado</h2>
+<p>O uso e a transferência, pelo uNotes, de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política podem ser enviadas pela <a href="https://github.com/brenoavelheda/unotes/issues">página de issues do repositório</a>.</p>
+</main>
+<footer>uNotes — aplicativo pessoal de anotações.</footer>
+</body>
+</html>

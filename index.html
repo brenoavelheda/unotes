@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>uNotes</title>
+<meta name="description" content="uNotes: aplicativo pessoal de anotações para Windows e Android, com sincronização no seu próprio Google Drive.">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --accent: #0969da;
+  --border: #d1d9e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #9198a1;
+    --accent: #4493f8;
+    --border: #30363d;
+  }
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 3rem 1.25rem 4rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--fg);
+}
+h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.5rem; }
+h2 { font-size: 1.25rem; line-height: 1.3; margin: 2rem 0 0.5rem; }
+p { margin: 0.75rem 0; }
+a { color: var(--accent); }
+ul { padding-left: 1.25rem; }
+li { margin: 0.4rem 0; }
+footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<main>
+<h1>uNotes</h1>
+<p>uNotes é um aplicativo de anotações pessoais para Windows e Android, baseado no Joplin, um projeto de código aberto, que sincroniza as suas próprias notas com o seu próprio Google Drive.</p>
+<ul>
+<li>As notas são criptografadas no dispositivo antes de sair dele: criptografia de ponta a ponta, com uma senha mestra que só você conhece.</li>
+<li>O aplicativo acessa apenas os arquivos que ele mesmo cria no seu Google Drive (pasta <strong>“uNotes Sync”</strong>).</li>
+<li>Não existe servidor nosso: os dados vão direto do dispositivo para o seu Google Drive.</li>
+</ul>
+<p>Leia a <a href="privacidade.html">política de privacidade</a>.</p>
+<p>O uNotes é baseado no <a href="https://github.com/laurent22/joplin">Joplin</a>, projeto de código aberto distribuído sob a licença AGPL-3.0.</p>
+</main>
+<footer>uNotes — aplicativo pessoal de anotações.</footer>
+</body>
+</html>
